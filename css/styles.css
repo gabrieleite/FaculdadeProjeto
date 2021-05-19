@@ -22,7 +22,11 @@
   color:blanchedalmond;
   display: inline-block;
   border-style: groove;
-  padding: revert;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 20px;
 }
 
 .orc{
