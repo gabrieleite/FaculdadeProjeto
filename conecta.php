@@ -3,7 +3,7 @@
 $servidor= 'localhost';
 $usuario='root';
 $senha='';
-$banco='acwbd';
+$banco='faculdadeprojeto';
 
 //Conexão utilizando os parâmetros acima
 

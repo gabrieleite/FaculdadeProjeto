@@ -35,41 +35,41 @@
 
     <div class="col-lg-4">
         <!-- Form --> 
-        <form>
+        <form method="POST" action="orcamento.php">
             <!-- 2 column grid layout with text inputs for the first and last names -->
             
             <div class="row mb-4">
             <div class="col">
                 <div class="form-outline">
-                <label class="form-label" for="nome">Nome Completo:</label>
-                <input type="text" id="form6Example1" class="form-control"/>
+                <label class="form-label"  for="NomeCompleto">Nome Completo:</label>
+                <input type="text" name="NomeCompleto" id="NomeCompleto" class="form-control"/>
                 </div>
             </div>
             </div>
         
             <!-- Text input -->
             <div class="form-outline mb-4">
-            <label class="form-label" for="empresa">Nome da Empresa:</label>
-            <input type="text" id="form6Example3" class="form-control" />
+            <label class="form-label" for="NomeEmpresa">Nome da Empresa:</label>
+            <input type="text" name="NomeEmpresa" id="NomeEmpresa" class="form-control" />
            
             </div>
         
             <!-- Email input -->
             <div class="form-outline mb-4">
-            <label class="form-label" for="email">E-mail:</label>
-            <input type="email" id="form6Example5" class="form-control" />
+            <label class="form-label" for="Email">E-mail:</label>
+            <input type="email" name="Email" id="Email" class="form-control" />
             </div>
         
             <!-- Number input -->
             <div class="form-outline mb-4">
-                <label class="form-label" for="telefone">Telefone:</label>
-            <input type="number" id="form6Example6" class="form-control" />
+                <label class="form-label" for="Telefone">Telefone:</label>
+            <input type="number" name="Telefone" id="Telefone" class="form-control" />
             </div>
         
             <!-- Message input -->
             <div class="form-outline mb-4">
-            <label class="form-label" for="descricao">Descrição do pedido:</label>
-            <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+            <label class="form-label" for="Descricao">Descrição do pedido:</label>
+            <textarea class="form-control" name="Descricao" id="Descricao" rows="4"></textarea>
             </div>
 
         

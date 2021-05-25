@@ -252,7 +252,7 @@
                     <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Se sua empresa tem alguma ideia de Web Site, mande para a gente!</p></div>
                     <div class="text-center">
                         <div id="success"></div>
-                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit"><a href="orçamento.html" class="pedido">Peça o Seu!</a></button>
+                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit"><a href="orçamento.php" class="pedido">Peça o Seu!</a></button>
                     </div>
             </div>
         </section>

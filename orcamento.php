@@ -1,25 +1,25 @@
 <?php 
 
-include "conecta.php";
+include ("conecta.php");
 
 
 
 
-$nomecompleto = $_REQUEST['nomecompleto'];
-$nomedaempresa = $_REQUEST['nomedaempresa'];
-$email = $_REQUEST['email'];
-$telefone = $_REQUEST['telefone'];
-$descricao = $_REQUEST['descricao'];
+$NomeCompleto = $_REQUEST['NomeCompleto'];
+$NomeEmpresa = $_REQUEST['NomeEmpresa'];
+$Email = $_REQUEST['Email'];
+$Telefone = $_REQUEST['Telefone'];
+$Descricao = $_REQUEST['Descricao'];
 
 
 
+echo $NomeCompleto;
 
 
 
-
-$result_cadastro = "INSERT INTO orcamento(nomecompleto, nomedaempresa, email, telefone, descricao) VALUES('$nomecompleto','$nomedaempresa', '$email','$telefone', '$descricao')";
+$result_cadastro = "INSERT INTO orcamento(NomeCompleto, NomeEmpresa, Email, Telefone, Descricao) VALUES('$NomeCompleto','$NomeEmpresa', '$Email','$Telefone', '$Descricao')";
 
 $conexao->query($result_cadastro);
-header('location: login_fun.php');
+header('location: index.php');
 
 ?>
